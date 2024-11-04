@@ -7,6 +7,17 @@
 [![npm downloads](https://img.shields.io/npm/dm/recharts.svg?style=flat-square)](https://www.npmjs.com/package/recharts)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
 
+[![MIT License](https://raw.githubusercontent.com/joachim-codescene/Joachim-Test/refs/heads/3.x/444.svg)](/LICENSE) dwadwa
+
+<img align="left" width="" src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat">
+
+<p align="left" width="100%">
+  <img align="left" src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat">
+  test
+  
+</p>
+
+
 ## Introduction
 
 Recharts is a **Redefined** chart library built with [React](https://facebook.github.io/react/) and [D3](http://d3js.org).
@@ -23,107 +34,18 @@ Please see [the wiki](https://github.com/recharts/recharts/wiki) for FAQ.
 
 All development is done on the `master` branch. The current latest release and storybook documentation reflects what is on the `release` branch.
 
-## Examples
 
-```jsx
-<LineChart width={400} height={400} data={data} margin={{ top: 5, right: 20, left: 10, bottom: 5 }}>
-  <XAxis dataKey="name" />
-  <Tooltip />
-  <CartesianGrid stroke="#f5f5f5" />
-  <Line type="monotone" dataKey="uv" stroke="#ff7300" yAxisId={0} />
-  <Line type="monotone" dataKey="pv" stroke="#387908" yAxisId={1} />
-</LineChart>
-```
+[![Quality Gate passed](https://raw.githubusercontent.com/SonarSource/sonarqube-static-resources/master/v104/checks/QualityGateBadge/passed-16px.png "Quality Gate passed")](https://next.sonarqube.com/sonarqube/dashboard?id=org.sonarsource.sonarlint.intellij%3Asonarlint-intellij&pullRequest=1119) **Quality Gate passed**
 
-All the components of Recharts are clearly separated. The LineChart is composed of x axis, tooltip, grid, and line items, and each of them is an independent React Component. The clear separation and composition of components is one of the principle Recharts follows.
 
-## Installation
+Issues  
+[![](https://raw.githubusercontent.com/SonarSource/sonarqube-static-resources/master/v104/common/passed-16px.png)](https://next.sonarqube.com/sonarqube/project/issues?id=org.sonarsource.sonarlint.intellij%3Asonarlint-intellij&pullRequest=1119&resolved=false) [0 New issues](https://next.sonarqube.com/sonarqube/project/issues?id=org.sonarsource.sonarlint.intellij%3Asonarlint-intellij&pullRequest=1119&resolved=false)  
+[![](https://raw.githubusercontent.com/SonarSource/sonarqube-static-resources/master/v104/common/fixed-16px.png)](https://next.sonarqube.com/sonarqube/project/issues?id=org.sonarsource.sonarlint.intellij%3Asonarlint-intellij&fixedInPullRequest=1119) [0 Fixed issues](https://next.sonarqube.com/sonarqube/project/issues?id=org.sonarsource.sonarlint.intellij%3Asonarlint-intellij&fixedInPullRequest=1119)  
+[![](https://raw.githubusercontent.com/SonarSource/sonarqube-static-resources/master/v104/common/accepted-16px.png)](https://next.sonarqube.com/sonarqube/project/issues?id=org.sonarsource.sonarlint.intellij%3Asonarlint-intellij&pullRequest=1119&issueStatuses=ACCEPTED) [0 Accepted issues](https://next.sonarqube.com/sonarqube/project/issues?id=org.sonarsource.sonarlint.intellij%3Asonarlint-intellij&pullRequest=1119&issueStatuses=ACCEPTED)
 
-### npm
+Measures  
+[![](https://raw.githubusercontent.com/SonarSource/sonarqube-static-resources/master/v104/common/passed-16px.png)](https://next.sonarqube.com/sonarqube/security_hotspots?id=org.sonarsource.sonarlint.intellij%3Asonarlint-intellij&pullRequest=1119) [0 Security Hotspots](https://next.sonarqube.com/sonarqube/security_hotspots?id=org.sonarsource.sonarlint.intellij%3Asonarlint-intellij&pullRequest=1119)  
+[![](https://raw.githubusercontent.com/SonarSource/sonarqube-static-resources/master/v104/common/no-data-16px.png)](https://raw.githubusercontent.com/SonarSource/sonarqube-static-resources/master/v104/common/no-data-16px.png) No data about Coverage  
+[![](https://raw.githubusercontent.com/SonarSource/sonarqube-static-resources/master/v104/common/no-data-16px.png)](https://raw.githubusercontent.com/SonarSource/sonarqube-static-resources/master/v104/common/no-data-16px.png) No data about Duplication
 
-NPM is the easiest and fastest way to get started using Recharts. It is also the recommended installation method when building single-page applications (SPAs). It pairs nicely with a CommonJS module bundler such as Webpack.
-
-```sh
-# latest stable
-$ npm install recharts react-is
-```
-
-`react-is` needs to match the version of your installed `react` package.
-
-### umd
-
-The UMD build is also available on unpkg.com:
-
-```html
-<script src="https://unpkg.com/react/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/react-is/umd/react-is.production.min.js"></script>
-<script src="https://unpkg.com/recharts/umd/Recharts.min.js"></script>
-```
-
-Then you can find the library on `window.Recharts`.
-
-### dev build
-
-```sh
-$ git clone https://github.com/recharts/recharts.git
-$ cd recharts
-$ npm install
-$ npm run build
-```
-
-## Demo
-
-To examine the demos in your local build, execute:
-
-```sh
-$ npm run[-script] demo
-```
-
-and then browse to http://localhost:3000.
-
-## Storybook
-
-We are in the process of unifying documentation and examples in storybook. To run it locally, execute
-
-```sh
-$ npm run[-script] storybook
-```
-
-and then browse to http://localhost:6006.
-
-## Releases
-
-[Releases](https://github.com/recharts/recharts/releases) are automated via GH Actions - when a new release is created in GH, CI will trigger that:
-
-1. Runs a build
-2. Runs tests
-3. Runs `npm publish`
-
-Version increments and tagging are not automated at this time.
-
-### Release testing
-
-Until we can automate more, it should be preferred to test as close to the results of `npm publish` as we possibly can. This ensures we don't publish unintended breaking changes. One way to do that is using `yalc` - `npm i -g yalc`.
-
-1. Make your changes in recharts
-2. `yalc publish` in recharts
-3. `yalc add recharts` in your test package (ex: in a vite or webpack reach app with recharts installed, imported, and your recent changes used)
-4. `npm install`
-5. Test a local run, a build, etc.
-
-## Module Formats
-
-- [babel-plugin-recharts](https://github.com/recharts/babel-plugin-recharts) A simple transform to cherry-pick Recharts modules so you don’t have to. **Note: this plugin is out of date and may not work with 2.x**
-
-## Thanks
-
-<a href="https://www.chromatic.com/"><img src="https://user-images.githubusercontent.com/321738/84662277-e3db4f80-af1b-11ea-88f5-91d67a5e59f6.png" width="153" height="30" alt="Chromatic" /></a>
-
-Thanks to [Chromatic](https://www.chromatic.com/) for providing the visual testing platform that helps us review UI changes and catch visual regressions.
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2015-2024 Recharts Group.
+[See analysis details on SonarQube](https://next.sonarqube.com/sonarqube/dashboard?id=org.sonarsource.sonarlint.intellij%3Asonarlint-intellij&pullRequest=1119)
