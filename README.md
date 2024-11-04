@@ -10,17 +10,6 @@
 
 [See analysis details in CodeScene](http://codescene.com)
 
-<details>
-  <summary>View detailed summary</summary>
-
-  ### Some Javascript
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
-
 #
 **Quality Gate Profile:** [Bare Minimum](http://codescene.com) <br>
 Want more control? [Customize Code Health rules](http://codescene.com) or catch issues early with our [IDE extension](http://codescene.com) and [CLI tool](http://codescene.com).
