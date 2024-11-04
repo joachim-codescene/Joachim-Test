@@ -25,5 +25,20 @@
 **Quality Gate Profile:** [Bare Minimum](http://codescene.com) <br>
 Want more control? [Customize Code Health rules](http://codescene.com) or catch issues early with our [IDE extension](http://codescene.com) and [CLI tool](http://codescene.com).
  
+<br><br><br><br><br><br>
+<hr>
+<br><br><br><br><br><br>
+
+
+[![Quality Gates Available](https://raw.githubusercontent.com/joachim-codescene/Joachim-Test/refs/heads/3.x/warning.svg "Quality Gates Available")](#) **Quality Gates Available**
+---
+
+Your organization has integrated [CodeScene](http://codescene.com) to enhance code quality with automated reviews and customizable PR gates. Choose a quality profile that aligns with your team’s goals.<br>
+
+[Learn more about setting up your quality gates](http://codescene.com)
+
+#
+Want more control? [Customize Code Health rules](http://codescene.com) or catch issues early with our [IDE extension](http://codescene.com) and [CLI tool](http://codescene.com).
+ 
 <br><br><br><br><br><br><br><br><br><br>
 <hr>
