@@ -1,10 +1,36 @@
 [![Quality Gate Failed](https://raw.githubusercontent.com/joachim-codescene/Joachim-Test/refs/heads/3.x/fail.svg "Quality Gate Failed")](#) **Quality Gate Failed**
 ---
+
+<details>
+  <summary>View detailed summary</summary>
+<br>
+<table><thead><tr><th align="left" width="700px">File</th>
+<th align="left" width="400px">Violation</th>
+<th align="left" width="auto"></th>
+</tr></thead>
+<tbody>
+<tr><td>Prevent Hotspot Decline</td><td>(2 hotspots decline in Code Health)</td><td>
+  
+[Suppress](http://codescene.com)
+
+ </td></tr>
+<tr><td>hej</td><td>hej</td><td>
+  
+[Suppress](http://codescene.com)
+
+ </td></tr>
+ <tr><td>hej</td><td>hej</td><td>
+  
+[Suppress](http://codescene.com)
+
+ </td></tr></tbody></table>
+</details>
+
 # [Heading Link](#section-i-want)
 
 | First Header  | Second Header |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| Content Cell  | [See analysis details in CodeScene](http://codescene.com)  |
 | Content Cell  | Content Cell  |
 
 **Gates Failed**<br>
