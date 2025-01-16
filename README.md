@@ -34,8 +34,8 @@
 | Content Cell  | Content Cell  |
 
 **Gates Failed**<br>
-[![](https://raw.githubusercontent.com/joachim-codescene/Joachim-Test/refs/heads/3.x/x1.svg)](#) [Prevent Hotspot Decline](http://codescene.com) (2 hotspots decline in Code Health)<br>
-[![](https://raw.githubusercontent.com/joachim-codescene/Joachim-Test/refs/heads/3.x/x1.svg)](#) [Enforce Code Health Alerts](http://codescene.com) (1 file with Deep Nested Logic)<br>
+[![](https://raw.githubusercontent.com/joachim-codescene/Joachim-Test/refs/heads/3.x/x1.svg)](#) Prevent Hotspot <small>Decline</small> `(2 hotspots decline in Code Health)`<br>
+[![](https://raw.githubusercontent.com/joachim-codescene/Joachim-Test/refs/heads/3.x/x1.svg)](#) Enforce Code Health Alerts `(1 file with Deep Nested Logic)`<br>
 
 **Gates Passed**<br>
 [![](https://raw.githubusercontent.com/joachim-codescene/Joachim-Test/refs/heads/3.x/pass1.svg)](#) [4 Quality Gates Passed](http://codescene.com) <br>
